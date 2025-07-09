@@ -9,6 +9,14 @@ public class Animal {
         this.age = age;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
     public String speak() {
         return "Some sound";
     }
