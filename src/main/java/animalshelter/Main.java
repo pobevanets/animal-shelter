@@ -1,3 +1,5 @@
+package animalshelter;
+
 import java.util.List;
 
 public class Main {

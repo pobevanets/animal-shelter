@@ -1,31 +1,53 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Gradle build output
+/build/
+/.gradle/
+
+# Ignore Gradle wrapper logs
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties.lock
+
+# Ignore local Gradle configuration
+.gradle/
+**/build/
+**/out/
+
+# Ignore Gradle cache in user home directory (not necessary unless committed by mistake)
+# ~/.gradle/
+
+# IntelliJ IDEA / Android Studio
 .idea/
 *.iml
+*.ipr
+*.iws
+out/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
+# Eclipse
 .project
-.settings
-.springBeans
-.sts4-cache
+.classpath
+.settings/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# macOS
 .DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+
+# Java-specific
+*.class
+
+# Kotlin-specific
+*.kotlin_module
